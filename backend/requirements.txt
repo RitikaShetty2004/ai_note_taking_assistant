@@ -1,0 +1,8 @@
+flask
+flask-cors
+werkzeug
+openai-whisper
+transformers
+torch
+pydub
+ffmpeg-python

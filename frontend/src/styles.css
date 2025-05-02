@@ -1,0 +1,110 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Main Container */
+  .container {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Recording Button */
+  .record-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: 0.3s;
+  }
+  
+  .record-btn.start {
+    background-color: #28a745;
+  }
+  
+  .record-btn.start:hover {
+    background-color: #218838;
+  }
+  
+  .record-btn.stop {
+    background-color: #dc3545;
+  }
+  
+  .record-btn.stop:hover {
+    background-color: #c82333;
+  }
+  
+  /* Audio Section */
+  .audio-section {
+    margin-top: 20px;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Loading Text */
+  .loading-text {
+    font-style: italic;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  /* Transcription and Summary */
+  .transcription-box,
+  .summary-box {
+    background: #f9f9f9;
+    padding: 10px;
+    border-left: 5px solid #007bff;
+    margin-top: 15px;
+    text-align: left;
+    border-radius: 5px;
+  }
+  
+  .transcription-box h3,
+  .summary-box h3 {
+    margin-bottom: 5px;
+    color: #007bff;
+  }
+  
+  /* Export Button */
+  .export-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+  }
+  
+  .export-btn:hover {
+    background-color: #0056b3;
+  }
+  
